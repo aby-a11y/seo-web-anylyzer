@@ -20,6 +20,7 @@ const ReportPage = () => {
 
   useEffect(() => {
     fetchReport();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [reportId]);
 
   const fetchReport = async () => {
